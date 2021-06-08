@@ -29,7 +29,7 @@ function Marketplace () {
              <div className="text-center">
                  <h2 style={styles.heading}><span> <strong style={{ color: '#C80C91' }}>CORGIB </strong></span>NFT Marketplace</h2>
                  <p style={styles.para}>CORGIB MarketPlace - Where you can create, buy and sell meme NFT</p>
-                 <img src="https://corgib.polkabridge.org/images/corgibnft.jpg" style={styles.image}></img>
+                 <img alt="market" src="https://corgib.polkabridge.org/images/corgibnft.jpg" style={styles.image}></img>
              </div>
         </div>
         </div>
