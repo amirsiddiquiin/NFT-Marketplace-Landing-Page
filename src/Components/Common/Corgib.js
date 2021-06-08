@@ -2,8 +2,6 @@ import React from 'react'
 
 function Corgib() {
     const styles ={
-        heading:{
-        },
         button:{
             backgroundColor: '#C80C91',
             width: 50,
