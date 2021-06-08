@@ -30,7 +30,7 @@ function Navbar() {
         <nav className="navbar navbar-expand-lg navbar-light bg-white">           
   <div className="container-fluid">
    <div>
-       <a className="navbar-brand" href="#">
+       <a className="navbar-brand" href="!#">
         <img href="#" alt="nav" src="https://corgib.polkabridge.org/corgi.png"style={styles.logo}></img>
         Corgi of <span style={{ color: '#C80C91' }}>
                   <strong> 
