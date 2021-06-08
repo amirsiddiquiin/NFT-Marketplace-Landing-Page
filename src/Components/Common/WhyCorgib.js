@@ -43,7 +43,7 @@ function WhyCorgib() {
             <section>
                 <div className="row">
                 <div className="col-md-6">
-                        <img alt="whyimg"  src="https://corgib.polkabridge.org/images/why.png" style={styles.image}></img>
+                        <img href="#" alt="why"  src="https://corgib.polkabridge.org/images/why.png" style={styles.image}></img>
                 </div>
                     <div className="col-md-6">
                         <div className="text-left mt-10" style={{marginRight:110,marginTop:150,}} >

@@ -51,7 +51,7 @@ function Buy() {
             </div>
             <div className="row">
                     <div className="col-md-6">
-                        <img alt='buy_image' src="https://corgib.polkabridge.org/images/metamask.png" style={styles.image}></img>
+                        <img href="#" alt='bue' src="https://corgib.polkabridge.org/images/metamask.png" style={styles.image}></img>
                     </div>
             
                 <div className="col-md-6">
@@ -64,7 +64,7 @@ function Buy() {
             </div>
             <div className="row"style={styles.background}>
                     <div className="col-md-6">
-                        <img alt="buy" src="https://corgib.polkabridge.org/images/bnb.png" style={styles.image}></img>
+                        <img href="#" alt="buy" src="https://corgib.polkabridge.org/images/bnb.png" style={styles.image}></img>
                     </div>
             
                 <div className="col-md-6">
@@ -76,7 +76,7 @@ function Buy() {
                 </div>
                 <div className="row"style={styles.background}>
                     <div className="col-md-6">
-                        <img alt="images" src="https://corgib.polkabridge.org/images/pancake.png" style={styles.image}></img>
+                        <img href="#" alt="images" src="https://corgib.polkabridge.org/images/pancake.png" style={styles.image}></img>
                     </div>
                     <div className="col-md-6">
                     <div style={styles.card}></div>
@@ -87,7 +87,7 @@ function Buy() {
                 </div>
                 <div className="row"style={styles.background}>
                     <div className="col-md-6">
-                        <img alt="imgr" src="https://corgib.polkabridge.org/corgi.png" style={styles.image}></img>
+                        <img href="#" alt="crgb" src="https://corgib.polkabridge.org/corgi.png" style={styles.image}></img>
                     </div>
                     <div className="col-md-6">
                     <div style={styles.card}></div>

@@ -35,10 +35,10 @@ function Tokenomics() {
             <section>
                 <div className="row">
                     <div className="col-md-6">
-                        <img alt="token" src="https://corgib.polkabridge.org/images/tokenomics.png" style={styles.image}></img>
+                        <img href="#" alt="token" src="https://corgib.polkabridge.org/images/tokenomics.png" style={styles.image}></img>
                     </div>
                     <div className="col-md-6">
-                        <h1 style={styles.heading}><img alt="tokenomics"  src="https://corgib.polkabridge.org/corgi.png"style={styles.logo}></img><span> <strong style={{ color: '#C80C91' }}>Tokenomics</strong></span> 	&#38; Locking</h1>
+                        <h1 style={styles.heading}><img href="#" alt="tokenomics"  src="https://corgib.polkabridge.org/corgi.png"style={styles.logo}></img><span> <strong style={{ color: '#C80C91' }}>Tokenomics</strong></span> 	&#38; Locking</h1>
                         <div class="border border-dark" style= {styles.card}>
                             <h3 style={styles.cardheader}>30% - Airdrop</h3>
                             <p style={styles.para}>30% of the total token will be distrubuted through airdrop campaign,<br/> scheduled from 13-18 May.</p>

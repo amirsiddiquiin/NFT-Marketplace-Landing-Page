@@ -31,7 +31,7 @@ function Navbar() {
   <div className="container-fluid">
    <div>
        <a className="navbar-brand" href="#">
-        <img alt="navimg" src="https://corgib.polkabridge.org/corgi.png"style={styles.logo}></img>
+        <img href="#" alt="nav" src="https://corgib.polkabridge.org/corgi.png"style={styles.logo}></img>
         Corgi of <span style={{ color: '#C80C91' }}>
                   <strong> 
                     Polka  Bridge 
