@@ -51,7 +51,7 @@ function Corgib() {
                     </div>
                     
                     <div className="col-md-6">
-                        <img alt="header image" src="https://corgib.polkabridge.org/images/corgibpolkabridge.png" style={styles.image}></img>
+                        <img alt="header" href="#" src="https://corgib.polkabridge.org/images/corgibpolkabridge.png" style={styles.image}></img>
                 </div>
              </div>
         </section>
