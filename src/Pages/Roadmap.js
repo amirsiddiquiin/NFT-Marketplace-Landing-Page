@@ -5,11 +5,6 @@ function Roadmap () {
         heading:{
             marginTop:150,
         },
-        para:{
-            fontSize:16,
-            fontWeight:400,
-            marginTop:20,
-        },
         image:{
             height:460,
         },
