@@ -42,19 +42,19 @@ function Navbar() {
       <div style={styles.navbar}>
       <ul className="navbar-nav me-auto mb-2 mb-lg-0 ">
         <li className="nav-item ">
-          <a className="nav-link" href="#"style={{color:'#1E1E1E'}}>About</a>
+          <a className="nav-link" href="!#"style={{color:'#1E1E1E'}}>About</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#"style={{color:'#1E1E1E'}}>Features</a>
+          <a className="nav-link" href="!#"style={{color:'#1E1E1E'}}>Features</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#"style={{color:'#1E1E1E'}}>Roadmap</a>
+          <a className="nav-link" href="!#"style={{color:'#1E1E1E'}}>Roadmap</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#"style={{color:'#1E1E1E'}}>Tokenomics</a>
+          <a className="nav-link" href="!#"style={{color:'#1E1E1E'}}>Tokenomics</a>
         </li>
         <li className="nav-item" style={styles.border}>
-          <a className="nav-link border border-dark" href="#"style={{color:'#1E1E1E'}} >TO THE MOON</a>
+          <a className="nav-link border border-dark" href="!#"style={{color:'#1E1E1E'}} >TO THE MOON</a>
         </li>
       </ul> 
           </div> 
