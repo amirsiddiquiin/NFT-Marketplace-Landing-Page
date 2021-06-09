@@ -44,7 +44,7 @@ function Roadmap () {
     return (
         <div class="container">
              <div className="text-center">
-                 <h2 style={styles.heading}>CORGIB<span><strong style={{ color: '#C80C91' }}>ROADMAP </strong></span></h2>
+                 <h2 style={styles.heading}>CORGIB<span><strong style={{ color: '#C80C91' }}> ROADMAP </strong></span></h2>
                  <p style={styles.para}>Our CORGIB Walk (Q2/2021).</p>
                  <div style={styles.card}>
                  <div class="border border-white" style= {styles.card1}>
