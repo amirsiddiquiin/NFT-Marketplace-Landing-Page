@@ -22,21 +22,28 @@ let styles = {
       fontWeight: 700,
       color:"#E8EDEC",
       marginRight:15,   
-     }
+     },
+     Button:{
+      borderRadius:10,
+      width:150,
+      borderColor:'#212529',
+      
+    },
+    top:{
+      marginLeft:185,
+    }
+
 }
 
 function Navbar() {
     return (
+      <div style={styles.top}>
         <nav className="navbar navbar-expand-lg navbar-light bg-white">           
   <div className="container-fluid">
    <div>
        <a className="navbar-brand" href="!#">
         <img href="#" alt="nav" src="https://corgib.polkabridge.org/corgi.png"style={styles.logo}></img>
-        Corgi of <span style={{ color: '#C80C91' }}>
-                  <strong> 
-                    Polka  Bridge 
-                  </strong>
-                </span></a>
+        Corgi of <span style={{ color: '#C80C91' }}><strong> Polka  Bridge </strong></span></a>
    </div>
     
       <div style={styles.navbar}>
@@ -53,19 +60,18 @@ function Navbar() {
         <li className="nav-item">
           <a className="nav-link" href="!#"style={{color:'#1E1E1E'}}>Tokenomics</a>
         </li>
-        <li className="nav-item" style={styles.border}>
-          <a className="nav-link border border-dark" href="!#"style={{color:'#1E1E1E'}} >TO THE MOON</a>
-        </li>
+        <button className="btn" style={styles.Button}>To The Moon</button>
       </ul> 
           </div> 
           <div>
+          
         <button className="btn" style={styles.navbarButton1}>PaneCake Swap</button>
         <button className="btn" style={styles.navbarButton1}>Price Chart</button>
     </div>
-          
-      
+
   </div>
 </nav>
+</div>
     )
 }
 

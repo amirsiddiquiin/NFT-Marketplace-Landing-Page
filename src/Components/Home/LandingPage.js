@@ -12,7 +12,7 @@ import Buy from './Buy';
 function LandingPage() {
   return (
     <div>
-      <Home/>
+     <Home/>
      <Corgib/>
      <WhyCorgib/>
      <Marketplace/>
