@@ -6,12 +6,12 @@ function Tokenomics() {
             height: 30,
           },
           image:{
-            height: 450,
-            marginLeft:130,
-            marginTop:250,
+            height: 420,
+            marginLeft:80,
+            marginTop:80,
           },
           heading:{
-            marginTop:150,
+            marginTop:60,
           },
          para:{
             fontSize:16,
@@ -20,7 +20,7 @@ function Tokenomics() {
          },
          card:{
             width: 570,
-            marginTop:30,
+            marginTop:10,
             borderRadius: 10,
             paddingLeft:13,
          },

@@ -6,12 +6,12 @@ function Marketplace () {
             backgroundColor:'#E7E6E7' ,
             backgroundSize: 'cover',
             paddingTop: 30,
+            paddingBottom:70,
 
-            
         },
         
         heading:{
-            marginTop:150,
+            marginTop:30,
         },
         para:{
             fontSize:16,
@@ -19,7 +19,8 @@ function Marketplace () {
             marginTop:20,
         },
         image:{
-            height:460,
+            height:450,
+
         }
 
     }

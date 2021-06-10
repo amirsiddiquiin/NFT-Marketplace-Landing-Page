@@ -5,9 +5,9 @@ let styles = {
         height: 50,
       },
     navbar:{
-        textAlignment:"right",
-        fontSize: "16px",
+        fontSize: 16,
         fontWeight:500,
+        marginLeft:90,
     },
 
  
@@ -23,15 +23,18 @@ let styles = {
       color:"#E8EDEC",
       marginRight:15,   
      },
-     Button:{
+     button:{
       borderRadius:10,
       width:150,
       borderColor:'#212529',
+      paddingTop: 10,
+      paddingBottom: 10,
+      fontWeight: 500,
       
     },
     top:{
-      marginLeft:185,
-    }
+      marginLeft:100,
+    },
 
 }
 
@@ -60,7 +63,7 @@ function Navbar() {
         <li className="nav-item">
           <a className="nav-link" href="!#"style={{color:'#1E1E1E'}}>Tokenomics</a>
         </li>
-        <button className="btn" style={styles.Button}>To The Moon</button>
+        <button className="btn" style={styles.button}>To The Moon</button>
       </ul> 
           </div> 
           <div>

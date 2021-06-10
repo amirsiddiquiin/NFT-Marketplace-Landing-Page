@@ -12,7 +12,7 @@ function Roadmap () {
         card1:{
             backgroundColor:'#F4F4F4',
             width: 600,
-            height:1000,
+            height:1050,
             marginTop:30,
             borderRadius: 10,
             marginLeft:250,
@@ -29,7 +29,7 @@ function Roadmap () {
             fontSize:'22px',
             marginTop:10,
             fontWeight:600,
-            textAlignment:'left',
+            textAlign:'left',
             marginLeft:15,
         },
         para:{
@@ -37,6 +37,7 @@ function Roadmap () {
             fontWeight:400,
             marginTop:10,
             marginLeft:15,
+            textAlign:'left',
         },
 
 
@@ -45,9 +46,10 @@ function Roadmap () {
         <div class="container">
              <div className="text-center">
                  <h2 style={styles.heading}>CORGIB<span><strong style={{ color: '#C80C91' }}> ROADMAP </strong></span></h2>
-                 <p style={styles.para}>Our CORGIB Walk (Q2/2021).</p>
-                 <div style={styles.card}>
-                 <div class="border border-white" style= {styles.card1}>
+                 <p style={{textAlign:'center'}}>Our CORGIB Walk (Q2/2021).</p>
+                 <div>
+                 <div class="border border-white" style= {styles.card1} >
+                    <strong>UPDATES</strong>
                  <div class="border border-dark" style= {styles.innercard}>
                             <h3 style={styles.cardheader}>Token Fair Launch</h3>
                             <p style={styles.para}>CORBIG will be listed on PANCAKESWAP at 3PM UTC, 13th May.</p>
