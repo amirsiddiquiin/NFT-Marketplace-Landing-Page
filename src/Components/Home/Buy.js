@@ -63,12 +63,12 @@ function Buy() {
                         </div>
                 </div>
             </div>
-            <div className="row">
+            <div className="row"style={styles.background}>
                     <div className="col-md-6">
                         <img href="#" alt="buy" src="https://corgib.polkabridge.org/images/bnb.png" style={styles.image}></img>
                     </div>
             
-                <div className="col-md-6" >
+                <div className="col-md-6">
                     <div style={styles.card}></div>
                        <div class="border border-white" style= {styles.card1}>
                             <h3 style={styles.cardheader}>2. Step: Send BNB to Metamask</h3>
