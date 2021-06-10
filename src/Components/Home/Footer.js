@@ -27,7 +27,7 @@ function Footer() {
           },
           copyright:{
               marginTop:100,
-              
+
           }
     }
     return (
@@ -35,12 +35,11 @@ function Footer() {
             <div  style= {styles.background}>
             <div>
        <a className="navbar-brand" href="!#">
-        <img href="#" alt="nav" src="https://corgib.polkabridge.org/corgi.png"style={styles.logo}></img>
-CORGIB </a>
+        <img href="#" alt="nav" src="https://corgib.polkabridge.org/corgi.png"style={styles.logo}></img><span style={{color:"white"}}>CORGIB</span></a>
 <p style={styles.para}>CORGIB Finance is a fully decentralized, the first NFT MarketPlace for Meme tokens</p>
    </div>
    <div style={styles.footerline}></div>
-   <div style={styles.copyright}className="text-center">Copyright 2021<span style={{color:"white"}}><strong> CORGIB Of PolkaBridge</strong></span>. All Rights Reserved.</div> 
+   <div style={styles.copyright} className="text-center">Copyright 2021<span style={{color:"white"}}><strong> CORGIB Of PolkaBridge</strong></span>. All Rights Reserved.</div> 
             </div> 
         </div>
     )

@@ -20,7 +20,7 @@ function Buy() {
             marginTop:20,
         },
         image:{
-            height: 110,
+            height: 150,
             marginLeft:250,
             marginTop:20,
         },
@@ -37,6 +37,7 @@ function Buy() {
             borderRadius: 10,
             borderColor:'#FFFFFF',
             paddingLeft:30,
+            textAlign:"left"
 
         },
 
@@ -44,7 +45,7 @@ function Buy() {
     return (
 
 
-     <div style={styles.background}>
+     <div style={styles.background} className="text-center">
         <section >
              <div className="text-center">
                  <h2 style={styles.heading}>How To <span><strong style={{ color: '#C80C91' }}>Buy</strong></span></h2>
