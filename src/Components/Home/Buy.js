@@ -8,6 +8,7 @@ function Buy() {
             backgroundSize: 'cover',
             paddingTop: 30,
             marginTop:10,
+            marginBottom:50,
             
             },
         heading:{
