@@ -7,10 +7,8 @@ function Buy() {
             backgroundPosition: 'center',
             backgroundSize: 'cover',
             paddingTop: 20,
-            marginTop:10,
             marginBottom:50,
             marginTop:50
-            
             },
         heading:{
             marginTop:70,
