@@ -8,8 +8,9 @@ function Buy() {
             backgroundSize: 'cover',
             paddingTop: 20,
             marginBottom:50,
-            marginTop:50
-            },
+            marginTop:50,
+            backgroundSize: 'cover',
+        },
         heading:{
             marginTop:70,
         },
@@ -54,8 +55,7 @@ function Buy() {
                     <div className="col-md-6">
                         <img href="#" alt='bue' src="https://corgib.polkabridge.org/images/metamask.png" style={styles.image}></img>
                     </div>
-            
-                <div className="col-md-6">
+                <div className="col-md-6" >
                     <div style={styles.card}></div>
                        <div class="border border-white" style= {styles.card1}>
                             <h3 style={styles.cardheader}>1. Step: Install Metamask for Chrome</h3>
@@ -63,12 +63,12 @@ function Buy() {
                         </div>
                 </div>
             </div>
-            <div className="row"style={styles.background}>
+            <div className="row">
                     <div className="col-md-6">
                         <img href="#" alt="buy" src="https://corgib.polkabridge.org/images/bnb.png" style={styles.image}></img>
                     </div>
             
-                <div className="col-md-6">
+                <div className="col-md-6" >
                     <div style={styles.card}></div>
                        <div class="border border-white" style= {styles.card1}>
                             <h3 style={styles.cardheader}>2. Step: Send BNB to Metamask</h3>
@@ -85,20 +85,21 @@ function Buy() {
                             <h3 style={styles.cardheader}>3. Step: Go to PancakeSwap</h3>
                             <p>Go to PancakeSwap and click the "Approve" button (for the first time). Go ahead and when transaction finish, click "Swap".</p>
                         </div>
-                </div>
-                <div className="row"style={styles.background}>
+                    </div>
+                
                     <div className="col-md-6">
                         <img href="#" alt="crgb" src="https://corgib.polkabridge.org/corgi.png" style={styles.image}></img>
                     </div>
+                    
                     <div className="col-md-6">
                     <div style={styles.card}></div>
                        <div class="border border-white" style= {styles.card1}>
                             <h3 style={styles.cardheader}>4. Step: Swap your BNB for CORGIB</h3>
                             <p>Now you can swap your BNB for CORGIB. Set your slippage to 5-7% and buy an event amonunt of $CORGIB. Click on the Swap Button to finalize your trade. Make sure to set fast transaction speed in Metamask.</p>
                         </div>
+                
                 </div>
-                </div>
-                </div>
+            </div>
                 
             </div>
         </section>
