@@ -7,6 +7,8 @@ function Marketplace () {
             backgroundSize: 'cover',
             paddingTop: 30,
             paddingBottom:70,
+            marginTop:100,
+            
 
         },
         
