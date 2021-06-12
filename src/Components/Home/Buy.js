@@ -9,7 +9,7 @@ function Buy() {
             paddingTop: 20,
             marginBottom:50,
             marginTop:50,
-            backgroundSize: 'cover',
+  
         },
         heading:{
             marginTop:70,
