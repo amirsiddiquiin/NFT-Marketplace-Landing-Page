@@ -52,10 +52,10 @@ function Buy() {
                  <p style={styles.para}>Get CORGIB in 4 Steps</p>
             </div>
             <div className="row">
-                    <div className="col-md-6">
+                    <div className="col-md-6" >
                         <img href="#" alt='bue' src="https://corgib.polkabridge.org/images/metamask.png" style={styles.image}></img>
                     </div>
-                <div className="col-md-6" >
+                <div className="col-md-6"  >
                     <div style={styles.card}></div>
                        <div class="border border-white" style= {styles.card1}>
                             <h3 style={styles.cardheader}>1. Step: Install Metamask for Chrome</h3>
